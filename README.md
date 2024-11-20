@@ -41,7 +41,7 @@ Your project includes:
 2. **Open a Terminal**
    - Go to the folder where your project files are saved. 
    - **On Windows**: Right-click in the folder and select "Open in Terminal."
-   - **On Mac**: Open Terminal, type `cd `, then drag the folder into the Terminal window to set your location.
+   - **On Mac**: Open Terminal, type `cd`, then drag the folder into the Terminal window to set your location.
 
 3. **Edit the env**
    - Copy the `.env.example` file to `.env` and fill in the required fields.
