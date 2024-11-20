@@ -60,15 +60,17 @@ Your project includes:
 
 If you have your own VPS (like DigitalOcean, AWS, or any other hosting service), you can deploy your project there. Follow these steps:
 
-**Prerequisites**
-    - A VPS with root or sudo access.
-    - Go installed on the server. You can install it using:
-        ```bash
-        sudo apt update
-        sudo apt install golang
-        ```
-    - An HTTP server like Nginx or Apache for reverse proxy and domain handling.
-### Steps
+#### Prerequisites
+
+- A VPS with root or sudo access.
+- Go installed on the server. You can install it using:
+    ```bash
+    sudo apt update
+    sudo apt install golang
+    ```
+- An HTTP server like Nginx or Apache for reverse proxy and domain handling.
+
+#### Steps
 
 1. **Upload Your Files**
    - Use SCP, rsync, or FTP software (e.g., FileZilla) to transfer your project files to the server.
@@ -115,6 +117,7 @@ If you have your own VPS (like DigitalOcean, AWS, or any other hosting service),
             sudo systemctl start resynced-uploader
             sudo systemctl enable resynced-uploader
             ```
+
 4. **Set Up a Reverse Proxy**
     - Install and configure **Nginx** or **Apache** to route traffic to your GoFiber app.
     - Example for **Nginx**:
@@ -137,15 +140,16 @@ If you have your own VPS (like DigitalOcean, AWS, or any other hosting service),
         ```bash
         sudo systemctl restart nginx
         ```
+
 5. **Enable HTTPS (Optional but Recommended)**
     - Use **Certbot** to install an SSL certificate for your domain:
         ```bash
         sudo apt install certbot python3-certbot-nginx
         sudo certbot --nginx -d yourdomain.com
         ```
+
 6. **Done!**
     - Visit your domain in a browser to see your Resynced Uploader project live!
-
 
 ## ⚙️ Need Help?
 
