@@ -2,9 +2,9 @@
     <img src="https://r2.interrupted.me/uploads/5IWuDvqm.png" align="center" />
 </a>
 
-<h1 align="center">Resynced Uploader Template</h1>
+<h1 align="center">🚀 Resynced Uploader Template</h1>
 
-<p align="center">Star for a cookie 🍪</p>
+<p align="center">Consider giving this repo a ⭐</p>
 
 ---
 
